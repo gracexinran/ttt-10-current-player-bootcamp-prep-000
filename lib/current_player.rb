@@ -9,5 +9,11 @@ end
 
 def current_player(board)
   if turn_count(board).even?
-    
-    
+    "X"
+  else 
+    "O"
+  end
+  3.times do 
+    current_player(board)
+  end
+end
