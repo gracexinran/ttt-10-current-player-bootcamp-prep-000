@@ -10,11 +10,12 @@ end
 
 def current_player(board)
   if turn_count(board).even?
-    "X"
+    puts "X"
   else 
-    "O"
+    puts "O"
   end
-  3.times do 
-    current_player(board)
-  end
+end
+
+3.times do
+  current_player(board)
 end
