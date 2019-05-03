@@ -16,6 +16,3 @@ def current_player(board)
   end
 end
 
-3.times do
-  current_player(board)
-end
